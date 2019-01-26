@@ -6,14 +6,15 @@ include('./app/controller/main.php');
 <head>
 <title>Alex App</title>
 <style>
-#main{width: 50%;margin-left: auto; margin-right: auto; border: 5px solid #4d4d4d;}
+#main{width: 50%;margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border: 5px solid #4d4d4d; font-family: Arial, Helvetica, sans-serif;}
 #main div{margin-left: auto; margin-right: auto;}
 h1{text-align: center;}
 #customer_header table{margin-left: 10px;}
 h2{margin-left: 10px;}
 #old_orders table{margin-left: auto; margin-right: auto; margin-bottom: 10px; border-collapse: collapse; border: 1px solid black;}
 #old_orders table th{text-transform: capitalize; padding: 5px;}
-#old_orders table td{border: 1px solid black; padding: 5px;}
+#old_orders table td{border: 1px solid black; padding: 5px; text-align: center; font-size: 80%;}
+#old_orders table tr:nth-of-type(even) { background-color:#E6E6E6; }
 </style>
 </head>
 <body>
