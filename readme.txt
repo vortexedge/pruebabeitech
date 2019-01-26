@@ -1,0 +1,3 @@
+-Este código espera estar en el document root
+-El archivo base/configuration.php tiene los datos de la base de datos y la ruta del servicio rest
+-Requiere la libreria de PDO
